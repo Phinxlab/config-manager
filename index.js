@@ -1,5 +1,5 @@
 'use strict';
-const LogManager=require('@phinxlab/log-manager');
+const LogManager=require('@phinxlab/log-manager-public');
 const Log=new LogManager('Global');
 const Fs = require('fs');
 
