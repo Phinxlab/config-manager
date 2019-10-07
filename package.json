@@ -7,7 +7,7 @@
   "description": "",
   "license": "ISC",
   "main": "./dist/main.js",
-  "name": "@phinxlab/config-manager",
+  "name": "@phinxlab/config-manager-public",
   "scripts": {
     "prebuild": "parcel build index.js --target node --no-minify",
     "build": "javascript-obfuscator dist/index.js --output dist/main.js && rm dist/index.js dist/index.js.map"
