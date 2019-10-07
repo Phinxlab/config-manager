@@ -1,0 +1,16 @@
+{
+  "author": "",
+  "dependencies": {
+    "javascript-obfuscator": "^0.18.1",
+    "parcel-bundler": "^1.12.4"
+  },
+  "description": "",
+  "license": "ISC",
+  "main": "./dist/main.js",
+  "name": "@phinxlab/config-manager",
+  "scripts": {
+    "prebuild": "parcel build index.js --target node --no-minify",
+    "build": "javascript-obfuscator dist/index.js --output dist/main.js && rm dist/index.js dist/index.js.map"
+  },
+  "version": "1.0.4"
+}
