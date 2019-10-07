@@ -12,5 +12,5 @@
     "prebuild": "parcel build index.js --target node --no-minify",
     "build": "javascript-obfuscator dist/index.js --output dist/main.js && rm dist/index.js dist/index.js.map"
   },
-  "version": "1.0.4"
+  "version": "1.1.0"
 }
